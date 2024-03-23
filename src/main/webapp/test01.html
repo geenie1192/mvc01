@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2>Servlet 이용 프로그래밍 연습</h2>
+	
+	<form action="/test01" metho="post">
+		<table border="1" width="80%">
+			<tr>
+				<td>회원번호</td>
+				<td><input type="text" name="code"></td>
+			</tr>
+			<tr>
+				<td>회원성명</td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr>
+				<td>회원전화</td>
+				<td><input type="text" name="phone"></td>
+			</tr>
+			<tr>
+				<td>회원주소</td>
+				<td><input type="text" name="address"></td>
+			</tr>
+			<tr>
+				<td>가입일자</td>
+				<td><input type="date" name="joindate"></td>
+			</tr>
+			<tr>
+				<td>도시코드</td>
+				<td><input type="text" name="city"></td>
+			</tr>
+			<tr>
+				<td>고객등급</td>
+				<td>
+					<select name="grade">
+						<option value="0">등급선택</option>
+						<option value="A">A</option>
+						<option value="B">B</option>
+						<option value="c">C</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="submit" value="등   록">
+					<input type="reset" value="입력초기화">
+				</td>
+			</tr>
+		</table>
+	</form> 
+</body>
+</html>
